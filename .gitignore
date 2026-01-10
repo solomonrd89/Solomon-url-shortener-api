@@ -1,0 +1,8 @@
+# Ignore environment variables (Protect your secrets!)
+.env
+
+# Ignore virtual environment folder (Too big, not needed)
+venv/
+.venv/
+__pycache__/
+*.pyc
