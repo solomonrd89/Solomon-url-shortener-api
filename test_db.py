@@ -20,7 +20,7 @@ else:
 print("\n--- 2. Testing Database Connection (PyMySQL) ---")
 try:
     # PyMySQL Connection
-    conn = pymysql.connect(host=host, user=user, password=pw, database=db)
+    conn = pymysql.connect(host=host, user=user, passwd=pw, database=db)
     print("✅ Database Connection SUCCESS!")
     conn.close()
 except Exception as e:
